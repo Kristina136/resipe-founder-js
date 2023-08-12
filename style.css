@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+margin-top: 20px;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    height:60px;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-stretch: ultra-expanded;
+  }
+
+  .displayNone{
+    display: none;
+    }
+  #search{
+    border: none;
+    color: rgb(17, 17, 17);
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-size: 33px;
+margin: 5;
+  }
+  input::placeholder{
+    color:rgb(41, 40, 40);
+    font-size: 20px;
+     opacity: 0.3;
+     font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+  }
+.nameOfRecipe{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+  .col-lg-6 {
+    flex: 0 0 0;
+    width: 100%;
+    box-sizing: inherit;
+    align-items: baseline!important;
+}
+.accordion-body{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.row{
+    padding: 0px;
+    border: none;
+}
+.bttn{
+border: none;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+}
+.btn{
+    font-size: 50px;
+}
+
+.displayNone{
+    display: none;
+}
+
+.description{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-size: 20px;
+}
+
+
+@media all and (max-width: 500px){
+    #search{
+    border: none;
+    color: rgb(17, 17, 17);
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-size: 24px;
+margin: 5;
+}
+  
